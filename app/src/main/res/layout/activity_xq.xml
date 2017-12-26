@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bawei.guolei.guolei20171221.XqActivity">
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:id="@+id/simple"
+        android:src="@drawable/dd"
+        android:layout_width="match_parent"
+        android:layout_height="340dp" />
+    <TextView
+        android:layout_below="@+id/simple"
+        android:padding="10dp"
+        android:id="@+id/text_title"
+        android:text="一加手机5 (A5000) 6GB+64GB 月岩灰 全网通 双卡双待 移动联通电信4G手机"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@+id/text_title"
+        android:id="@+id/text_price"
+        android:padding="10dp"
+        android:text="￥ 2999.0"
+        android:textColor="#ff9900"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+
+    <RadioButton
+        android:id="@+id/radio_01"
+        android:button="@null"
+        android:gravity="center"
+        android:padding="5dp"
+        android:checked="true"
+        android:text="加入购物车"
+        android:background="#ff6600"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+
+
+    <RadioButton
+        android:id="@+id/radio_02"
+        android:button="@null"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="购买"
+        android:background="#ffff00"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+
+
+    </RadioGroup>
+
+
+</RelativeLayout>
